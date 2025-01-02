@@ -36,7 +36,7 @@ export const NAV_LINKS = [
 
 export default function SideBar() {
   return (
-    <div className="   h-screen  bg-black/20 text-lg font-semibold max-md:hidden">
+    <div className="  h-full sticky   bg-black/20 col-span-2 text-xl min-lg:py-5 min-lg:px-6 font-semibold max-md:hidden">
       <div className="py-5 px-6  sticky inset-0 flex flex-col items-start ">
         <Logo />
         {NAV_LINKS.map((navLink) => (

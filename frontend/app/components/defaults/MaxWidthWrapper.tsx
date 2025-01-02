@@ -13,7 +13,7 @@ function MaxWidthWrapper({
   return (
     <section
       className={cn(
-        "max-w-[1375px] w-full py-5 px-10",
+        "max-w-[1600px] w-full py-5 px-10",
         className || "",
         {
           "py-0": noPadding,
